@@ -1,1 +1,1 @@
-WScript.Echo("Hello world!");
+MsgBox "Hello world!", vbInformation, "Greetings"
