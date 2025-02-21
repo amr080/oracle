@@ -13,7 +13,10 @@ https://en.wikipedia.org/wiki/Safra_Catz
 • Detailed user actions in DB logs
 
 
-
+• Oracle only “sees” PDFs stored or served through its systems
+• PDFs can include hidden elements (like remote images or JavaScript) that ping back to a server
+• Such embedded beacons report data (IP, timestamp, etc.) when the PDF loads external content
+• Local files remain inaccessible unless deliberately uploaded or synced through Oracle software
 
 
 ---
